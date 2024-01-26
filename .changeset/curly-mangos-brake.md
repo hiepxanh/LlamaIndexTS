@@ -2,4 +2,4 @@
 "llamaindex": patch
 ---
 
-updated packages
+update dependencies
