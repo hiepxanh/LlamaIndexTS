@@ -31,7 +31,7 @@
     "turbo": "^1.11.3",
     "typescript": "^5.3.3"
   },
-  "packageManager": "pnpm@8.10.5+sha256.a4bd9bb7b48214bbfcd95f264bd75bb70d100e5d4b58808f5cd6ab40c6ac21c5",
+  "packageManager": "pnpm@8.14.3+sha256.2d0363bb6c314daa67087ef07743eea1ba2e2d360c835e8fec6b5575e4ed9484",
   "pnpm": {
     "overrides": {
       "trim": "1.0.1",
