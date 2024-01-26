@@ -156,8 +156,8 @@ importers:
         specifier: ^0.1.4
         version: 0.1.4
       '@mistralai/mistralai':
-        specifier: ^0.0.7
-        version: 0.0.7
+        specifier: ^0.0.10
+        version: 0.0.10
       '@notionhq/client':
         specifier: ^2.2.14
         version: 2.2.14
@@ -3523,13 +3523,12 @@ packages:
       '@types/react': 18.2.48
       react: 18.2.0
 
-  /@mistralai/mistralai@0.0.7:
-    resolution: {integrity: sha512-47FiV/GBnt6gug99ZfDBcBofYuYvqT5AyhUDdtktUbCN+gq52tmiAbtwc88k7hlyUWHzJ28VpHRDfNTRfaWKxA==}
+  /@mistralai/mistralai@0.0.10:
+    resolution: {integrity: sha512-fZOt7A32DcPSff58wTa44pKUBoJBH5toAuzNI9yoM7s5NjTupa1IYcSqqk2LigO8M5EtOEkFsD/XzdyWPnhaRA==}
     dependencies:
-      axios: 1.6.7
-      axios-retry: 4.0.0(axios@1.6.7)
+      node-fetch: 2.7.0(encoding@0.1.13)
     transitivePeerDependencies:
-      - debug
+      - encoding
     dev: false
 
   /@mongodb-js/saslprep@1.1.4:
@@ -5624,15 +5623,6 @@ packages:
   /axe-core@4.7.0:
     resolution: {integrity: sha512-M0JtH+hlOL5pLQwHOLNYZaXuhqmvS8oExsqB1SBYgA4Dk7u/xx+YdGHXaK5pyUfed5mYXdlYiphWq3G8cRi5JQ==}
     engines: {node: '>=4'}
-    dev: false
-
-  /axios-retry@4.0.0(axios@1.6.7):
-    resolution: {integrity: sha512-F6P4HVGITD/v4z9Lw2mIA24IabTajvpDZmKa6zq/gGwn57wN5j1P3uWrAV0+diqnW6kTM2fTqmWNfgYWGmMuiA==}
-    peerDependencies:
-      axios: 0.x || 1.x
-    dependencies:
-      axios: 1.6.7
-      is-retry-allowed: 2.2.0
     dev: false
 
   /axios@1.6.2:
@@ -10070,11 +10060,6 @@ packages:
   /is-relative-path@1.0.2:
     resolution: {integrity: sha512-i1h+y50g+0hRbBD+dbnInl3JlJ702aar58snAeX+MxBAPvzXGej7sYoPMhlnykabt0ZzCJNBEyzMlekuQZN7fA==}
     dev: true
-
-  /is-retry-allowed@2.2.0:
-    resolution: {integrity: sha512-XVm7LOeLpTW4jV19QSH38vkswxoLud8sQ57YwJVTPWdiaI9I8keEhGFpBlslyVsgdQy4Opg8QOLb8YRgsyZiQg==}
-    engines: {node: '>=10'}
-    dev: false
 
   /is-root@2.1.0:
     resolution: {integrity: sha512-AGOriNp96vNBd3HtU+RzFEc75FfR5ymiYv8E553I71SCeXBiMsVDUtdio1OEFvrPyLIQ9tVR5RxXIFe5PUFjMg==}
